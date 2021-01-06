@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int x;
+cout<<"Enter any value\n";
+cin>>x;
+cout<<"Address of the value is:"<<&x;
+return 0;
+}
