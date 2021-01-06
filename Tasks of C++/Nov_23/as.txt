@@ -1,0 +1,15 @@
+Access specifiers are 3 keywords:
+1.Public
+2.Private
+3.Protected
+----------------------------------------------------------------------------------------------------------
+Public:
+Public class members are accessible out side the class and it is available for every one.
+-----------------------------------------------------------------------------------------------------------
+Private:
+Private class members are accessible with the class and it is not accessible out side the class. 
+If we try to access out side the it gives compile time error.
+By default class variables and member functions are private.
+------------------------------------------------------------------------------------------------------------
+Protected:
+It is similar to private access specifier. It makes class member inaccessible outside the class. But they can be accessed by any subclass of that class.

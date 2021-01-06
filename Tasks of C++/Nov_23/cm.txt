@@ -1,0 +1,24 @@
+Constructor name must be same as class name but functions cannot have same name as class name.
+Constructor does not have return type whereas functions must have.
+Constructors are invoked at the time of object creation automatically and cannot be called explicitly but functions are called explicitly using class objects.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                             Syntax:
+class class_name                                                                                                                                                                                                                                             
+{                                                                                                                                                 
+ member variables ; 
+ returntype function_name()    //member function                                                                                                                                                                                                                                                                                      }
+{
+//perform some operation
+}
+};
+
+
+class class_name                                                                                                                                                                                                                                             
+{                                                                                                                                                 
+member variables ; 
+member functions;
+ class_name()    //constructor                                                                                                                                                                                                                                                                                    }
+{
+//perform some operation
+}
+};

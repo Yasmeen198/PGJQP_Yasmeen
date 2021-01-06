@@ -1,0 +1,11 @@
+When static keyword is used, variable or data members or functions can not be modified again. It is allocated for the lifetime of program.
+Static variables are initialized only once.Compiler persist the variable till the end of the program.
+Static variable can be defined inside or outside the function. They are local to the block.The different objects of a class same copy of static variable.
+In a class,we just declare a static variable and later initialize it.
+The default value of static variable is zero. 
+
+Static functions can be called directly by using class name.Static Functions can access only static variables or other static member functions.
+Static functions doesnt depend on objects of class.They are invoked using .(dot)operator. 
+---------------------------------------------------------------------------------------------------------------------
+                                                                          Syntax for static variable and function:
+static returntype variable_name;                                                                                                        static returntype function_name();
